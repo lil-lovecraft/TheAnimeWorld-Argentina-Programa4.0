@@ -631,6 +631,7 @@ a.background-btn:hover {
     width: 100%;
 }
 .copyright-sub5 {
+    position: relative;
     left: 22rem;
     text-align: center;
     bottom: -2rem;
@@ -1193,10 +1194,26 @@ h2::selection {
 
 /* FOR MEDIUM DIVICES */
 @media (max-width: 768px) {
+    .copyright-sub1 {
+    left: 0%;
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    bottom: -13rem;
+    margin-bottom: 4rem;
+    position: relative;
+    }
+    .copyright-sub2 {
+        position: relative;
+        left: -15rem;
+        bottom: -15.1rem;
+        margin-bottom: 6.5rem;
+        height: 50%;
+    }
     .close-video {
-    font-size: 60px;
-    margin-top: -24.9rem;
-    margin-left: -130px;
+        font-size: 60px;
+        margin-top: -24.9rem;
+        margin-left: -130px;
     }
     .emission .heading {
         padding: 16px 275px;
@@ -1362,10 +1379,21 @@ h2::selection {
 }
 
 @media (max-width: 414px ) {
+    .copyright-sub2 {
+        left: 0rem;
+        bottom: -1.1rem;
+        margin-bottom: 4.5rem;
+    }
+    .duration-info6{
+        left: 1.4rem;
+    }
+    .copyright-sub5 {
+        position: inherit;
+    }
     .close-video {
-    font-size: 57px;
-    margin-top: -18rem;
-    margin-left: -29px;
+        font-size: 57px;
+        margin-top: -18rem;
+        margin-left: -29px;
     }
     .home-img {
         object-position: center;
@@ -1557,6 +1585,20 @@ h2::selection {
 }
 
 @media (max-width:375px) {
+    .copyright-sub1 {
+        height: 21%;
+        width: 100%;
+        bottom: -1rem;
+        margin-bottom: 4rem;
+    }
+    .copyright-sub5 {
+        position: inherit;
+    }
+    .copyright-sub2 {
+        left: 0rem;
+        bottom: -1.1rem;
+        margin-bottom: 4.5rem;
+    }
     .copyright2 {
     left: 0rem;
     margin-bottom: 4rem;
