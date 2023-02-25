@@ -127,7 +127,6 @@ header {
     border: none;
     outline: none;
     color: var(--text-color);
-    background: var(--container-color);
     font-size: 0.938rem;
 }
 
@@ -607,12 +606,11 @@ a.background-btn:hover {
 }
 
 .copyright-sub1 {
-    position: relative;
     left: 100%;
     text-align: center;
-    bottom: -10px;
     height: 10%;
     width: 100%;
+    margin-bottom: 3rem;
 }
 .copyright-sub3 {
     position: relative;
@@ -1465,6 +1463,10 @@ h2::selection {
     }
     .emission .heading {
         padding: 15px 37%;
+    }
+    .play-text h2 {
+        font-size: 2rem;
+        font-weight: 600;
     }
 }
 

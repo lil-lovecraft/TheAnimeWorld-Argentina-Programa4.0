@@ -101,39 +101,3 @@ var controls =
 ];
 
 const play = new Plyr('#hero-trailer',{controls});
-
-// Variable Search 
-search_box =        document.getElementById("search-box");
-ctn_search =   document.getElementById("");
-search_input =        document.getElementById("search-input");
-box_search =         document.getElementById("box-search"); 
-
-
-// Search Show
-function Show_Search(){
-      
-      search_box.style.top ="80px";
-      cctn_search.style.display = "block";
-      search_input.focus();
-
-}
-
-// Hidden Search
-
-function Hidden_Search(){
-
-      search_box.style.top ="-10px";
-      ctn_search.style.display = "block";
-      search_input = "";
-
-}
-
-// Search Filter
-
-function Search_filter(){
-
-      filter = search_input.value.toUpperCase();
-
-
-
-}
