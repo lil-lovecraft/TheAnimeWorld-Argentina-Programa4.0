@@ -797,6 +797,9 @@ h2::selection {
 
 /* Responsive */
 @media (max-width: 1280px) {
+    .close-video {
+    font-size: 57px;
+    }
     .navbar {
         bottom: 0;
         left: 0;
@@ -997,6 +1000,9 @@ h2::selection {
         padding-bottom: 6rem;
         bottom: -292px;
     }
+    .close-video {
+    font-size: 47px;
+    }
 }
 
 @media (max-width: 990px) {
@@ -1038,6 +1044,10 @@ h2::selection {
         bottom: -196px;
         height: 10%;
         width: 100%;
+    }
+    .close-video {
+    font-size: 77px;
+    margin-top: -1.9rem;
     }
 }
 
@@ -1146,10 +1156,20 @@ h2::selection {
         font-size: 1.2rem;
         font-weight: 300;
     }
+    .close-video {
+    font-size: 57px;
+    margin-top: -24.9rem;
+    margin-left: -90px;
+    }
 }
 
 /* FOR MEDIUM DIVICES */
 @media (max-width: 768px) {
+    .close-video {
+    font-size: 60px;
+    margin-top: -24.9rem;
+    margin-left: -130px;
+    }
     .emission .heading {
         padding: 16px 275px;
     }
@@ -1301,10 +1321,20 @@ h2::selection {
     .emission .heading {
         padding: 16px 187px;
     }
+    .close-video {
+    font-size: 57px;
+    margin-top: -24rem;
+    margin-left: -13.5rem;
+    }
 
 }
 
 @media (max-width: 414px ) {
+    .close-video {
+    font-size: 57px;
+    margin-top: -18rem;
+    margin-left: -29px;
+    }
     .home-img {
         object-position: center;
     }
@@ -1469,6 +1499,11 @@ h2::selection {
         font-size: 2rem;
         font-weight: 600;
     }
+    .close-video {
+    font-size: 47px;
+    margin-top: -18rem;
+    margin-left: -45px;
+    }
 }
 
 @media (max-width: 412px) {
@@ -1490,9 +1525,27 @@ h2::selection {
     padding-bottom: 5rem;
     width: 100%;
     }
+    .close-video {
+    font-size: 47px;
+    margin-top: -18rem;
+    margin-left: -49px;
+    }
+}
+
+@media (max-width: 360px){
+    .close-video {
+    font-size: 47px;
+    margin-top: -18rem;
+    margin-left: -64px;
+    }
 }
 
 @media (max-width: 280px) {
+    .close-video {
+            font-size: 37px;
+            margin-top: -8.7rem;
+            margin-left: -41px;
+        }
     .play-container {
             min-height: 200px;
         }
