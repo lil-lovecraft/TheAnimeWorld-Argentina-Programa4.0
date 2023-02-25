@@ -630,6 +630,28 @@ a.background-btn:hover {
     height: 10%;
     width: 100%;
 }
+.copyright-sub5 {
+    left: 22rem;
+    text-align: center;
+    bottom: -2rem;
+    height: 10%;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.copyright1 {
+    position: absolute;
+    text-align: center;
+    bottom: -33rem;
+    left: 50rem;
+    margin-top: 5rem;
+}
+
+.copyright2 {
+    position: relative;
+    text-align: center;
+    left: 22rem;
+    margin-bottom: 6rem;
+}
 
 /* Play Container */
 .play-container {
@@ -797,6 +819,12 @@ h2::selection {
 
 /* Responsive */
 @media (max-width: 1280px) {
+    .copyright1 {
+    position: relative;
+    text-align: center;
+    bottom: 4rem;
+    left: 0rem;
+    }
     .close-video {
     font-size: 57px;
     }
@@ -1326,6 +1354,10 @@ h2::selection {
     margin-top: -24rem;
     margin-left: -13.5rem;
     }
+    .copyright2 {
+        left: 0px;
+        margin-bottom: 3rem;
+    }
 
 }
 
@@ -1485,6 +1517,14 @@ h2::selection {
     .about-anime p {
         padding: 12px;
     }
+    .copyright2 {
+        left: 0rem;
+        margin-bottom: 4rem;
+    }
+    .play-text h2 {
+    font-size: 2rem;
+    }
+    
 }
 
 @media (max-width:395px) {
@@ -1510,9 +1550,17 @@ h2::selection {
     .logo {
         margin: 0 76px 0 0;
     }
+    .copyright2 {
+        left: 0rem;
+        margin-bottom: 4rem;
+    }
 }
 
 @media (max-width:375px) {
+    .copyright2 {
+    left: 0rem;
+    margin-bottom: 4rem;
+    }
     .play-anime {
         left: 18rem;
         top: 14.5rem;
@@ -1537,6 +1585,16 @@ h2::selection {
     font-size: 47px;
     margin-top: -18rem;
     margin-left: -64px;
+    }
+}
+
+@media (max-width: 320px) {
+    .play-anime {
+    left: 15.5rem;
+    top: 11.8rem;
+    }
+    .play-text h2 {
+    font-size: 1.5rem;
     }
 }
 
