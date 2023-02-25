@@ -127,6 +127,7 @@ header {
     border: none;
     outline: none;
     color: var(--text-color);
+    background-color: var(--container-color);
     font-size: 0.938rem;
 }
 
