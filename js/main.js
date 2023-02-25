@@ -101,3 +101,6 @@ var controls =
 ];
 
 const play = new Plyr('#hero-trailer',{controls});
+
+
+// login / User Soon
